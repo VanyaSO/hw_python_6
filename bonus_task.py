@@ -24,7 +24,7 @@ output_option = input("What do you want to see result?: 1(all time) 2(only hours
 match output_option:
     case "1": print(f"Left until the end of the day: {left_hours} hours/{left_minutes} minutes/{left_seconds} seconds")
     case "2": print(f"Left until the end of the day: {left_hours} hours")
-    case "3": print(f"Left until the end of the left_time // 60} minutes")day: {
+    case "3": print(f"Left until the end of the {left_time // 60} minutes")
     case "4": print(f"Left until the end of the day: {left_time} seconds")
     case _: print("Error")
 
